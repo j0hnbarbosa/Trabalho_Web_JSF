@@ -95,12 +95,14 @@
                        <td>Impressora Id</td>
                        <td>Usuario Id</td>
                        <td>quantidade de páginas</td>
+                       <td>Data da utilização</td>
                    </tr>
                  <ui:repeat var="controleuso" value="#{controleUsoImpressoraBean.list()}" >
                     <tr>
                         <td>#{controleuso.fk_impressora}</td>
                         <td>#{controleuso.fk_usuario}</td>
                         <td>#{controleuso.qtde_paginas}</td>
+                        <td>#{controleuso.data}</td>
                      </tr>
                   </ui:repeat>
                    
