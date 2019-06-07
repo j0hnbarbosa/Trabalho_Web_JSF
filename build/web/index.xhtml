@@ -12,15 +12,21 @@
     </h:head>
     <h:body >
         <div class="container">
-            <h2>Informações sobre os Usuário</h2>
-            <p>Quantidade de Registros na Tabela Usuário -
+            <h2>Informações de cadatros</h2>
+            <p>Quantidade de Usuários -
                 <span class="badge badge-info">
                     #{cadastroUsuario.count()}
+                </span>
+            </p>
+            <p>Quantidade de Impressora -
+                <span class="badge badge-info">
+                    #{cadastroImpressora.count()}
                 </span>
             </p>
             <div class="buttonContainer">
                 <a href="cadastrar_usuario.xhtml" class="btn btn-primary">Cadastrar Usuário</a>
                 <a href="cadastro_impressoras.xhtml" class="btn btn-primary">Cadastrar Impressora</a>
+                <a href="cadastrar_controle_uso.xhtml" class="btn btn-primary">Cadastrar Controle de Uso</a>
             </div>
         </div>
     </h:body>
