@@ -50,12 +50,12 @@ public class CadastroUsuario {
     }
     
 
-    public Usuario getCliente() {
+    public Usuario getUsuario() {
         return usuario;
     }
 
-    public void setCliente(Usuario cliente) {
-        this.usuario = cliente;
+    public void setUsuario(Usuario usuario) {
+        this.usuario = usuario;
     }
        public List<Usuario> list(){
         UsuarioJpaController dao = new UsuarioJpaController(emf);
